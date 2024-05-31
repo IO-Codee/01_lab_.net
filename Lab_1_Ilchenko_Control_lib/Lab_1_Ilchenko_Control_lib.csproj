@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Lab_1_Ctrl.bmp" />
+    <None Remove="Lab_1_Ctrl.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Lab_1_Ctrl.bmp" />
+    <Resource Include="Lab_1_Ctrl.ico" />
+  </ItemGroup>
+
+</Project>
